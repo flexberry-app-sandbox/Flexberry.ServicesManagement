@@ -125,6 +125,14 @@ $.extend(true, translations, {
             caption: 'Customer Profile',
             title: 'Customer'
           }
+        },
+        common: {
+          caption: 'Common',
+          title: 'Common',
+          'i-i-s-services-management-service-provider-l': {
+            caption: 'Service Provider',
+            title: 'Service provider'
+          }
         }
       }
     },

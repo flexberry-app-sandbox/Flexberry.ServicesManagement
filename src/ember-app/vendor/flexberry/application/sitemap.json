@@ -52,6 +52,21 @@
           "children": null
         }
       ]
+    },
+    {
+      "link": null,
+      "menuName": "common",
+      "caption": "Common",
+      "title": "Common",
+      "children": [
+        {
+          "link": "i-i-s-services-management-service-provider-l",
+          "menuName": null,
+          "caption": "Service Provider",
+          "title": "Service provider",
+          "children": null
+        }
+      ]
     }
   ],
   "mobile": true

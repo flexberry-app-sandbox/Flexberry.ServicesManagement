@@ -22,25 +22,25 @@ export default Controller.extend({
             link: 'i-i-s-services-management-ticket-l',
             caption: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-ticket-l.caption'),
             title: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-ticket-l.title'),
-            icon: 'briefcase',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-services-management-feedback-l',
             caption: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-feedback-l.caption'),
             title: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-feedback-l.title'),
-            icon: 'suitcase',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-services-management-event-l',
             caption: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-event-l.caption'),
             title: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-event-l.title'),
-            icon: 'folder',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-services-management-customer-request-l',
             caption: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-customer-request-l.caption'),
             title: i18n.t('forms.application.sitemap.events-and-requests.i-i-s-services-management-customer-request-l.title'),
-            icon: 'building',
+            icon: 'book',
             children: null
           }]
         }, {
@@ -52,7 +52,19 @@ export default Controller.extend({
             link: 'i-i-s-services-management-customer-l',
             caption: i18n.t('forms.application.sitemap.profile.i-i-s-services-management-customer-l.caption'),
             title: i18n.t('forms.application.sitemap.profile.i-i-s-services-management-customer-l.title'),
-            icon: 'edit',
+            icon: 'folder open',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.common.caption'),
+          title: i18n.t('forms.application.sitemap.common.title'),
+          children: [{
+            link: 'i-i-s-services-management-service-provider-l',
+            caption: i18n.t('forms.application.sitemap.common.i-i-s-services-management-service-provider-l.caption'),
+            title: i18n.t('forms.application.sitemap.common.i-i-s-services-management-service-provider-l.title'),
+            icon: 'file',
             children: null
           }]
         }
