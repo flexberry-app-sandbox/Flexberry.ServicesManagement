@@ -1,0 +1,4 @@
+import IISServices_ManagementServiceProviderEController from '../i-i-s-services-management-service-provider-e';
+
+var IISServices_ManagementServiceProviderENewController = IISServices_ManagementServiceProviderEController;
+export default IISServices_ManagementServiceProviderENewController;

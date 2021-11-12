@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-services-management-customer-request-e",
+  "editForm": "i-i-s-services-management-customer-request-e",
+  "external": false,
+  "caption": "Customer request",
+  "name": "IISServices_ManagementCustomerRequestL",
+  "className": "CustomerRequestL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-services-management-customer-request",
+      "modelProjection": "CustomerRequestL"
+    }
+  ]
+}

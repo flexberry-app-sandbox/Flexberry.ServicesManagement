@@ -1,0 +1,58 @@
+﻿{
+  "applicationCaption": "Services_ management",
+  "applicationTitle": "Services_ management",
+  "items": [
+    {
+      "link": null,
+      "menuName": "events-and-requests",
+      "caption": "Events and Requests",
+      "title": "Events and Requests",
+      "children": [
+        {
+          "link": "i-i-s-services-management-ticket-l",
+          "menuName": null,
+          "caption": "Ticket",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-services-management-feedback-l",
+          "menuName": null,
+          "caption": "Feedback",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-services-management-event-l",
+          "menuName": null,
+          "caption": "Event",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-services-management-customer-request-l",
+          "menuName": null,
+          "caption": "Customer request",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "profile",
+      "caption": "Profile",
+      "title": "Profile",
+      "children": [
+        {
+          "link": "i-i-s-services-management-customer-l",
+          "menuName": null,
+          "caption": "Customer Profile",
+          "title": "Customer",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

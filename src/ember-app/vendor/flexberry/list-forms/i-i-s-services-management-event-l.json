@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-services-management-event-e",
+  "editForm": "i-i-s-services-management-event-e",
+  "external": false,
+  "caption": "Event",
+  "name": "IISServices_ManagementEventL",
+  "className": "EventL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-services-management-event",
+      "modelProjection": "EventL"
+    }
+  ]
+}

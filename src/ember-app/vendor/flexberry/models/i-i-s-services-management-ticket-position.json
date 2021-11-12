@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISServices_ManagementTicketPosition",
+  "modelName": "i-i-s-services-management-ticket-position",
+  "className": "TicketPosition",
+  "nameSpace": "IIS.Services_Management",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "amount",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "event",
+      "relatedTo": "i-i-s-services-management-event",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "ticket",
+      "relatedTo": "i-i-s-services-management-ticket",
+      "inverse": "ticketPosition"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "TicketPositionE",
+      "modelName": "i-i-s-services-management-ticket-position",
+      "attrs": [
+        {
+          "name": "amount",
+          "caption": "Amount",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "StartTime",
+          "lookupValueField": "startTime",
+          "relationName": "Event",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "startTime",
+              "caption": "Start time",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Event",
+          "name": "event",
+          "relatedTo": "i-i-s-services-management-event",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

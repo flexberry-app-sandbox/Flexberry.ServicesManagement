@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Customer",
+      "projection": "CustomerL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Customer request",
+  "name": "IISServices_ManagementCustomerRequestE",
+  "className": "CustomerRequestE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-services-management-customer-request",
+      "modelProjection": "CustomerRequestE"
+    }
+  ]
+}

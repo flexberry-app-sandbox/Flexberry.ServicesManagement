@@ -1,0 +1,16 @@
+﻿version: '3'
+
+services:
+  app:
+    image: services_management/app
+    links:
+      - app-postgres-db:app-postgres-db
+    ports:
+      - 80:80
+
+  app-postgres-db:
+    image: services_management/postgre-sql
+    volumes:
+      - DB:/var/lib/pgsql/data/
+volumes:
+  DB:
